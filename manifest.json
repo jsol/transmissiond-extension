@@ -1,0 +1,11 @@
+{
+  "name": "Transmission Daemon",
+  "description": "Send urls to transmission-daemon from right click menu",
+  "version": "0.1",
+  "permissions": ["contextMenus", "http://media/"],
+  "background": {
+    "scripts": ["transmission.js"]
+  },
+  "icons": { "16": "small.png"},
+  "manifest_version": 2
+}
